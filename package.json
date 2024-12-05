@@ -1,0 +1,29 @@
+{
+  "name": "gitdoc",
+  "version": "1.0.0",
+  "description": "---\r icon: page\r coverY: 0\r layout:\r   cover:\r     visible: false\r     size: full\r   title:\r     visible: true\r   description:\r     visible: true\r   tableOfContents:\r     visible: true\r   outline:\r     visible: true\r   pagination:\r     visible: true\r ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_fffe26a985165b6"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.2",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-onboarding": "^8.4.7",
+    "@storybook/addon-webpack5-compiler-swc": "^1.0.5",
+    "@storybook/blocks": "^8.4.7",
+    "@storybook/react": "^8.4.7",
+    "@storybook/react-webpack5": "^8.4.7",
+    "@storybook/test": "^8.4.7",
+    "chromatic": "^11.20.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.4.7"
+  }
+}
