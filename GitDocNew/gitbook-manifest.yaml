@@ -1,0 +1,18 @@
+name: GitDocNew
+title: GitDocTitle
+script: src\index.tsx
+description: ''
+scopes:
+  - space:content:read
+  - space:content:write
+  - space:metadata:read
+  - space:metadata:write
+  - space:views:read
+  - space:git:sync
+blocks:
+  - id: GitDocNew
+    title: GitDocTitle
+    description: My GitBook Integration
+visibility: private
+organization: GitDocTitle
+secrets: {}
