@@ -29,6 +29,6 @@
     "storybook": "^8.4.7"
   },
   "dependencies": {
-    "@storybook/design-system": "^7.15.17"
+    "@storybook/design-system": "latest"
   }
 }
