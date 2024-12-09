@@ -96,7 +96,15 @@ The -m flag allows us to pass in an inline commit message, rather than launching
 commit will always commit everything in Staging Area.
 {% endhint %}
 
-When we change an already committed file and we call "git status", we will see the file marked as modified.
+```git
+git commit -a -m "my message"
+```
+
+Giving the flag -a to commit it will stage and commit all changes
+
+***
+
+When we edit an already committed file and we call "git status", we will see the file marked as modified.
 
 To see the commit history, we can call the "log" command.
 

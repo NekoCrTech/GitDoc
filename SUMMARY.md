@@ -5,3 +5,4 @@
 * [Terminal Crash Curse](terminal-crash-curse.md)
 * [The Very Basics Of Git](the-very-basics-of-git.md)
 * [Commits in Details](commits-in-details.md)
+* [Working with Branches](working-with-branches.md)

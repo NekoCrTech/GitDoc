@@ -1,8 +1,21 @@
 ---
-icon: page
+icon: git-alt
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # What is Git?
+
+<figure><img src=".gitbook/assets/Diagram.png" alt=""><figcaption></figcaption></figure>
 
 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 

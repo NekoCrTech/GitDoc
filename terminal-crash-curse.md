@@ -41,7 +41,7 @@ cd Folder
 
 * Change Directory (cd) enters the folder
 
-```
+```bash
 cd ..
 ```
 
